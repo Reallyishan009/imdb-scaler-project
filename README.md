@@ -1,12 +1,41 @@
-# React + Vite
+# 🎬 IMDB Clone – Ishan Tripathi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clone of IMDB built as part of the Scaler Academy Full Stack Development curriculum. This project fetches movie data, displays it in a visually appealing layout, and allows users to search and explore movie details.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://imdb-clone-ishantripathi.netlify.app](https://imdb-clone-ishantripathi.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Search for movies
+- 🎞️ View trending and top-rated movies
+- 🖼️ Responsive UI with poster previews
+- 📄 Detailed movie info (title, overview, rating, etc.)
+- ⚙️ Deployed on Netlify
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript (or React/Vue depending on your stack)
+- **API:** [TMDB API](https://www.themoviedb.org/documentation/api)
+- **Deployment:** Netlify
+
+---
+
+## 📦 Project Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/Reallyishan009/imdb-scaler-project.git
+cd imdb-scaler-project
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
